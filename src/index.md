@@ -2,6 +2,7 @@
 title: Red Star IT
 description: Red Star IT software development consultancy
 draft: false
+layout: layout.html
 ---
 
 Red Star IT is the software consultancy company under whose name I, [Peter Morlion](http://www.petermorlion.com), can be hired. I also have published a few apps under that name.
