@@ -5,7 +5,8 @@
     "metalsmith-drafts": true,
     "metalsmith-markdown": true,
     "metalsmith-layouts": {
-        "engine": "handlebars"
+        "engine": "handlebars",
+        "partials": "partials"
       }
   }
 }
