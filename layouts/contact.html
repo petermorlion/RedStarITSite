@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+{{> head }}
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>{{title}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="emailInput">Your email</label>
+              <input class="u-full-width" placeholder="test@mailbox.com" id="emailInput" type="email">
+            </div>
+          </div>
+          <label for="messageInput">Message</label>
+          <textarea class="u-full-width" placeholder="Enter your question or message here" id="messageInput"></textarea>
+          <input class="button-primary" value="Submit" type="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
