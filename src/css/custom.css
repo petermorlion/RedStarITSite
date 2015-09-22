@@ -1,0 +1,49 @@
+nav {
+  background-color: #C10303;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #C10303;
+}
+
+input.hamburger-checkbox {
+  display: none;
+}
+
+input.hamburger-checkbox + label {
+  float: right;
+}
+
+input.hamburger-checkbox + label + ul {
+  display: none;
+}
+
+.hamburger-checkbox:checked + label + ul {
+  display: block;
+}
+
+@media (min-width: 750px) {
+  input.hamburger-checkbox + label {
+    display: none;
+  }
+
+  input.hamburger-checkbox + label + ul {
+    display: block;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+}
