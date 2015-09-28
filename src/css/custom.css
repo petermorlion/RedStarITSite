@@ -72,4 +72,8 @@ input.hamburger-checkbox + label + ul {
   nav ul li {
     display: inline;
   }
+
+  .nav-clear {
+    display: none;
+  }
 }
