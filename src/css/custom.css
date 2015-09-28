@@ -37,6 +37,10 @@ input.hamburger-checkbox {
 
 input.hamburger-checkbox + label {
   float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
 }
 
 input.hamburger-checkbox + label + ul {
