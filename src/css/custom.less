@@ -1,13 +1,15 @@
+@main: #C10303;
+
 h1, h2, h3, h4, h5, h6, a {
-  color: #C10303;
+  color: @main;
 }
 
 a:hover {
-  color: #C10303;
+  color: lighten(@main, 30%);
 }
 
 nav {
-  background-color: #C10303;
+  background-color: @main;
 }
 
 nav ul {
@@ -31,12 +33,12 @@ nav a.home-link {
 
 nav a:hover {
   background-color: #fff;
-  color: #C10303;
+  color: @main;
 }
 
 nav a.home-link:hover {
   background-color: transparent;
-  color: #aaa;
+  color: darken(@main, 20%);
 }
 
 input.hamburger-checkbox {
