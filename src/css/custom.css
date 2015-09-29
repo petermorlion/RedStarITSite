@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #C10303;
+}
+
 nav {
   background-color: #C10303;
 }
@@ -51,6 +55,11 @@ input.hamburger-checkbox + label + ul {
   display: block;
 }
 
+.company-logo {
+  display:block;
+  margin: 10px auto;
+}
+
 @media (min-width: 750px) {
   input.hamburger-checkbox + label {
     display: none;
@@ -67,6 +76,9 @@ input.hamburger-checkbox + label + ul {
 
   nav a {
     display: inline-block;
+  }
+
+  nav a.home-link {
     padding-left: 0;
   }
 
@@ -81,5 +93,9 @@ input.hamburger-checkbox + label + ul {
 
   .nav-clear {
     display: none;
+  }
+
+  .company-logo {
+    margin-top: 0;
   }
 }
