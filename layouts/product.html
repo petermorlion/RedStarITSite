@@ -2,8 +2,8 @@
 <html>
 {{> head }}
 <body>
+  {{> nav }}
   <div class="container">
-    {{> nav }}
     <div class="row">
       <div class="twelve columns">
         <h1>{{title}}</h1>
@@ -14,9 +14,10 @@
         {{{contents}}}
       </div>
       <div class="four columns">
-        image here
+        <img src="images/{{ logo }}" class="product-logo" />
       </div>
     </div>
   </div>
+  {{> footer }}
 </body>
 </html>

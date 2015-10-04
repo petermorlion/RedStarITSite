@@ -2,16 +2,11 @@
 <html>
 {{> head }}
 <body>
+  {{> nav }}
   <div class="container">
-    {{> nav }}
     <div class="row">
       <div class="twelve columns">
-        <h1>{{title}}</h1>
-      </div>
-    </div>
-    <!-- <img src="images/logo.png"/> -->
-    <div class="row">
-      <div class="twelve columns">
+        <img src="images/logo.png" class="company-logo"/>
         {{{contents}}}
       </div>
     </div>
@@ -37,5 +32,6 @@
       </div>
     </div>
   </div>
+  {{> footer }}
 </body>
 </html>

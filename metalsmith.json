@@ -4,6 +4,7 @@
   "plugins": {
     "metalsmith-drafts": true,
     "metalsmith-markdown": true,
+    "metalsmith-less": {},
     "metalsmith-layouts": {
         "engine": "handlebars",
         "partials": "partials"
