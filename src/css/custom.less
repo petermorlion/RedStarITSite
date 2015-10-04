@@ -1,4 +1,6 @@
 @main: #C10303;
+@contrast: #fff;
+@appbar-padding: 10px;
 
 h1, h2, h3, h4, h5, h6, a {
   color: @main;
@@ -8,8 +10,15 @@ a:hover {
   color: lighten(@main, 30%);
 }
 
-nav {
+nav, footer {
   background-color: @main;
+}
+
+footer {
+  color: @contrast;
+  padding: @appbar-padding;
+  margin-top: @appbar-padding + 10;
+  font-size: 10px;
 }
 
 nav ul {
@@ -19,9 +28,9 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: @contrast;
   text-decoration: none;
-  padding: 10px;
+  padding: @appbar-padding;
   display: block;
 }
 
@@ -32,7 +41,7 @@ nav a.home-link {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: @contrast;
   color: @main;
 }
 
@@ -49,7 +58,7 @@ input.hamburger-checkbox + label {
   float: right;
   margin-right: 10px;
   margin-top: 10px;
-  color: #fff;
+  color: @contrast;
   cursor: pointer;
 }
 
@@ -64,6 +73,12 @@ input.hamburger-checkbox + label + ul {
 .company-logo {
   display:block;
   margin: 10px auto;
+}
+
+.product-logo {
+  width: 180px;
+  margin: 0 auto;
+  display: block;
 }
 
 @media (min-width: 750px) {
@@ -103,5 +118,15 @@ input.hamburger-checkbox + label + ul {
 
   .company-logo {
     margin-top: 0;
+  }
+
+  .product-logo {
+    margin: 0;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
