@@ -1,3 +1,5 @@
+require('./node_modules/harmonize')();
+
 var Metalsmith = require('./node_modules/metalsmith'),
     drafts     = require('./node_modules/metalsmith-drafts'),
     less       = require('./node_modules/metalsmith-less'),
