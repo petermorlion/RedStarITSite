@@ -3,7 +3,8 @@ title: 8cam
 description: 8cam - a retro camera app for Windows Phone
 draft: false
 layout: product.html
-logo: 8cam-logo.png
+logo: 8cam/8cam-logo.png
+screenshots: 8cam/Screenshot02.png, 8cam/Screenshot04.png, 8cam/Screenshot05.png, 8cam/Screenshot07.png, 8cam/Screenshot08.png
 ---
 
 8cam is a Windows Phone app I made that lets you take pictures that have large pixels
