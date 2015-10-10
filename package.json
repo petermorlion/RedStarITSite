@@ -15,6 +15,7 @@
     "metalsmith-drafts": "0.0.1",
     "metalsmith-layouts": "^1.4.0",
     "metalsmith-less": "^2.0.0",
-    "metalsmith-markdown": "^0.2.1"
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-skeleton-gallery": "git://github.com/petermorlion/metalsmith-skeleton-gallery.git"
   }
 }
