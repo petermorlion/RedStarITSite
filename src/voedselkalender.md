@@ -4,6 +4,7 @@ description: Voedselkalender - a Windows Phone app for seasonal vegetables and f
 draft: false
 layout: product.html
 logo: groentenkalender-logo.png
+skeletongallery: voedselkalender/screenshot1.png, voedselkalender/screenshot1.fr.png, voedselkalender/screenshot2.png, voedselkalender/screenshot2.fr.png, voedselkalender/screenshot3.png, voedselkalender/screenshot3.fr.png
 ---
 
 Voedselkalender is a (Dutch and French) Windows Phone app that keeps it simple.
