@@ -17,7 +17,6 @@ nav, footer {
 footer {
   color: @contrast;
   padding: @appbar-padding;
-  margin-top: @appbar-padding + 10;
   font-size: 10px;
 }
 
@@ -85,6 +84,10 @@ input.hamburger-checkbox + label + ul {
   margin-top: 10px;
 }
 
+.container {
+  padding-bottom: @appbar-padding + 10;
+}
+
 @media (min-width: 750px) {
   input.hamburger-checkbox + label {
     display: none;
@@ -126,6 +129,10 @@ input.hamburger-checkbox + label + ul {
 
   .product-logo {
     margin: 0;
+  }
+
+  .container {
+    padding-bottom: @appbar-padding + 20;
   }
 
   footer {
