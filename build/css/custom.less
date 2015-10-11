@@ -1,0 +1,143 @@
+@main: #C10303;
+@contrast: #fff;
+@appbar-padding: 10px;
+
+h1, h2, h3, h4, h5, h6, a {
+  color: @main;
+}
+
+a:hover {
+  color: lighten(@main, 30%);
+}
+
+nav, footer {
+  background-color: @main;
+}
+
+footer {
+  color: @contrast;
+  padding: @appbar-padding;
+  font-size: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: block;
+  clear: both;
+}
+
+nav a {
+  color: @contrast;
+  text-decoration: none;
+  padding: @appbar-padding;
+  display: block;
+}
+
+nav a.home-link {
+  display: inline-block;
+  font-weight: bold;
+  float: left;
+}
+
+nav a:hover {
+  background-color: @contrast;
+  color: @main;
+}
+
+nav a.home-link:hover {
+  background-color: transparent;
+  color: darken(@main, 20%);
+}
+
+input.hamburger-checkbox {
+  display: none;
+}
+
+input.hamburger-checkbox + label {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: @contrast;
+  cursor: pointer;
+}
+
+input.hamburger-checkbox + label + ul {
+  display: none;
+}
+
+.hamburger-checkbox:checked + label + ul {
+  display: block;
+}
+
+.company-logo {
+  display:block;
+  margin: 10px auto;
+}
+
+.product-logo {
+  width: 180px;
+  margin: 0 auto;
+  display: block;
+}
+
+.gallery {
+  margin-top: 10px;
+}
+
+.container {
+  padding-bottom: @appbar-padding + 10;
+}
+
+@media (min-width: 750px) {
+  input.hamburger-checkbox + label {
+    display: none;
+  }
+
+  input.hamburger-checkbox + label + ul {
+    display: block;
+  }
+
+  nav > div {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+
+  nav a.home-link {
+    padding-left: 0;
+  }
+
+  nav ul {
+    display: inline;
+    clear: none;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  .nav-clear {
+    display: none;
+  }
+
+  .company-logo {
+    margin-top: 0;
+  }
+
+  .product-logo {
+    margin: 0;
+  }
+
+  .container {
+    padding-bottom: @appbar-padding + 20;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
