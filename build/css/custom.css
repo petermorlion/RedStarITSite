@@ -113,6 +113,7 @@ input.hamburger-checkbox + label + ul {
   }
   .awesomeform {
     width: 600px;
+    height: 640px;
   }
   footer {
     position: fixed;
