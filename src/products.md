@@ -11,6 +11,8 @@ Here is a short list of products I've made and projects I've worked on. For a mo
 
 My first project here was to rewrite the automation of two blast furnaces in .NET (with a WPF client). Previously, it was written in Fortran. I led a team of 3 (myself included) and we successfully put the application in production, without major glitches.
 
+I am currently continuing work on this project for a new blast furnace, while also helping out with a stock-keeping project.
+
 ## Voedselkalender
 
 A simple Windows Phone app to easily see what fruits and vegetables are seasonal in which month.
