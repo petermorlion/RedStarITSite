@@ -5,13 +5,23 @@ draft: false
 layout: page.html
 ---
 
-Here is a short list of products I've made and projects I've worked on. For a more complete overview, take a look at [my LinkedIn profile](https://be.linkedin.com/in/petermorlion) or [GitHub account](https://github.com/petermorlion).
+Here is a short list of products I've made and projects I've worked on. For a more complete overview, 
+take a look at [my LinkedIn profile](https://be.linkedin.com/in/petermorlion) or [GitHub account](https://github.com/petermorlion).
+
+## Torpedos.be
+
+A small, responsive webpage with parallax scrolling to introduce kids and teenagers to Ultimate Frisbee and the Ghent
+team.
+
+[More...](torpedos.html)
 
 ## Arcelor-Mittal Ghent
 
-My first project here was to rewrite the automation of two blast furnaces in .NET (with a WPF client). Previously, it was written in Fortran. I led a team of 3 (myself included) and we successfully put the application in production, without major glitches.
+My first project here was to rewrite the automation of two blast furnaces in .NET (with a WPF client). 
+Previously, it was written in Fortran. I led a team of 3 (myself included) and we successfully put the 
+application in production, without major glitches.
 
-I am currently continuing work on this project for a new blast furnace, while also helping out with a stock-keeping project.
+I also helped out with a stock-keeping project.
 
 ## Voedselkalender
 
@@ -26,3 +36,9 @@ filters after taking your picture (although this is possible). It shows the pixe
 the viewfinder, while you are pointing your phone at what you want to take a photo of.
 
 [More...](8cam.html)
+
+## Logopedie-Verscheure.be
+
+A simple, informative website for a speech therapist/remedial teacher, with attention to SEO.
+
+[More...](logopedie-verscheure.html)
