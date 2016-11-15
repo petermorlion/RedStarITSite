@@ -8,6 +8,12 @@ layout: page.html
 Here is a short list of products I've made and projects I've worked on. For a more complete overview, 
 take a look at [my LinkedIn profile](https://be.linkedin.com/in/petermorlion) or [GitHub account](https://github.com/petermorlion).
 
+## Assists
+
+A Wordpress site for emotional development in organisations, of which I made the theme, based off an existing theme.
+
+[More...](assists.html)
+
 ## Torpedos.be
 
 A small, responsive webpage with parallax scrolling to introduce kids and teenagers to Ultimate Frisbee and the Ghent
